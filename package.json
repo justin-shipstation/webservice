@@ -1,0 +1,28 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "description": "This is a basic webservice template",
+  "main": "server/index.js",
+  "engines": {
+    "node": "^12.8.0"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-shipstation/webservice.git"
+  },
+  "author": "Justin Robertson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justin-shipstation/webservice/issues"
+  },
+  "homepage": "https://github.com/justin-shipstation/webservice#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.1",
+    "winston": "^3.3.3"
+  }
+}
